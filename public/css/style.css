@@ -1,0 +1,91 @@
+/* Layout Design */
+body {
+    font-family: Arial, sans-serif;
+     height: 100%;
+     margin: 0;
+
+    /* Background image setup */
+    background-image: url('/images/bc.png'); 
+    background-repeat: no-repeat; 
+     background-attachment: fixed;
+    background-size: cover;       
+    background-position: center;  
+}
+/* HEADER styling */
+.site-header {
+    text-align: center;         
+    font-family: cursive;
+    font-size: 50px;
+    color: rgb(17, 16, 16);
+    text-shadow: 5px 5px 10px rgb(242, 240, 240);
+
+}
+
+
+main {
+    flex: 1;                     
+}
+
+
+.site-nav {
+    text-align: center;
+    padding: 15px 0;
+    
+}
+
+.navbar {
+    list-style: none;
+    display: inline-flex;       
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a {
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fdfcfc;
+    padding: 8px 15px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #5e5b5b;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+ /* HomePage Design */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh; 
+    
+}
+
+.home{
+    font-family: cursive;
+    text-align: center;
+    background-color: rgba(204, 192, 172, 0.6); 
+    padding: 30px 40px;
+    border-radius: 12px;
+    width: 400px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    margin: 20px auto; 
+    color: rgb(0, 0, 0);
+    transition: all 0.3s ease; 
+}
+
+/* hover effect */
+.home:hover {
+    background-color: rgba(77, 71, 71, 0.9); 
+    transform: translateY(-5px);           
+    box-shadow: 0 15px 30px rgba(166, 127, 89, 0.3); 
+}
+
+body.luzon-bg {
+    background: url('/images/luzon-bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
